@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quis corrupti velit! Similique, fuga aspernatur rem, est illo non consectetur voluptate quo quos ducimus saepe maxime unde quibusdam quia veniam?</p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium expedita delectus quas iusto voluptatem repellat adipisci, fugit quis soluta facere sequi repellendus distinctio incidunt consequuntur corporis voluptates! Dolorum, ea debitis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium laboriosam rerum doloribus velit provident quo eos consectetur quia distinctio non? Recusandae illum nemo id omnis quae ipsam blanditiis, nesciunt quos!</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1><p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos expedita eos fugit ab facere atque beatae porro quod? Necessitatibus, consequatur maiores quia quisquam veritatis voluptatibus sequi? Aperiam facilis inventore debitis.</p><img scr='imagens/vscode-icon.png'>">
+        <p>Infelizmente seu navegador não é compatível com isso.</p>
+    </iframe>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ipsa dolores reiciendis tempore, enim eligendi id officiis, et ratione cupiditate, delectus iusto quidem tenetur itaque quia quibusdam! Neque, ipsam nemo! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt autem earum quisquam nobis laborum aut, expedita hic. Laboriosam itaque, magnam saepe eos, quasi iure laudantium, sed amet dicta vel fugit!</p>
+</body>
+</html>
